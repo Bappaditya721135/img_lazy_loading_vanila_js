@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    overflow-x: hidden;
+}
+
+.img-container {
+    max-width: 500px;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.img {
+    width: 100%;
+}
+
+.blur {
+    filter: blur(10px);
+}
