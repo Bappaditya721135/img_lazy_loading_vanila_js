@@ -30,5 +30,3 @@ allImgs.forEach(img => {
     img.classList.add("blur")
     observer.observe(img)
 })
-
-// document.addEventListener
